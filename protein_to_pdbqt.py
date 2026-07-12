@@ -38,8 +38,7 @@ def prepare_receptor(
         "-o", output_file
     ]
 
-    print("\nRunning:")
-    print(" ".join(command))
+    print("\nRunning protein conversion to PDBQT...")
 
     result = subprocess.run(
         command,

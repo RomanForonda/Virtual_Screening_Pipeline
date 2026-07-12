@@ -71,7 +71,7 @@ def save_docking_box(
         f.write(f"size_y = {size_y:.3f}\n")
         f.write(f"size_z = {size_z:.3f}\n")
 
-    print(f"Docking box saved to: {output_path}")
+    print(f"Binding site saved to: {output_path}")
 
 
 def clean_protein(

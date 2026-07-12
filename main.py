@@ -416,7 +416,7 @@ def run_pipeline(config):
     print("\n=== 10) Run summary ===")
     generate_pipeline_summary(config)
 
-    print("\nPipeline complete. Protein and ligands are ready for docking.")
+    print("\nPipeline complete. Protein and ligands are already docked.")
 
 
 if __name__ == "__main__":

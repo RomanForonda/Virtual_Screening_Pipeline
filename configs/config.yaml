@@ -64,4 +64,4 @@ docking:
 
   # Number of new ligands to dock in one run.
   # Use a small integer for testing, for example 10; use null to dock all remaining ligands.
-  max_ligands: null
+  max_ligands: 10
